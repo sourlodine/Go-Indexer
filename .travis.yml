@@ -1,0 +1,19 @@
+language: go
+
+go:
+  - 1.11.4
+  - master
+
+env:
+  - GO111MODULE=on
+
+install: true
+
+script:
+  - go test -v ./...
+  - go build ./...
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always

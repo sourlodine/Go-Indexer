@@ -25,7 +25,7 @@ This assumes that you have `Go` installed and setup.
 3. Run the following commands :
 
 ```bash
-$ git clone https://github.com/dgplug/dexer.git
+$ git clone https://github.com/sourlodine/Go-Indexer.git
 $ cd dexer
 $ make all
 $ dexer

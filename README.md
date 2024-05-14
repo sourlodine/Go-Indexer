@@ -71,7 +71,7 @@ You can run the application using Docker in your local machine. It will use the 
 Run the following commands to build and run the docker image.
 
 ```bash
-$ git clone https://github.com/dgplug/dexer.git
+$ git clone https://github.com/sourlodine/Go-Indexer.git
 $ cd dexer
 $ make logs
 $ make docker-build # builds docker image
